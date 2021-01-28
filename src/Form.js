@@ -1,11 +1,11 @@
 import React from 'react';
 import {View} from 'react-native';
-import Form from './src/Form';
+import FormSignUp from './FormSignUp';
 
-export default function App() {
+export default function Form() {
   return (
     <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-      <Form />
+      <FormSignUp />
     </View>
   );
 }
